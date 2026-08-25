@@ -462,8 +462,8 @@ window.PAPERS = [
           {
             "n": "1.1.5",
             "m": 3,
-            "en": "How many are more than one standard deviation from the mean",
-            "af": "Hoeveel is meer as een standaardafwyking van die gemiddelde"
+            "en": "How many are more than one standard deviation BELOW the mean",
+            "af": "Hoeveel is meer as een standaardafwyking ONDER die gemiddelde"
           },
           {
             "n": "1.2",

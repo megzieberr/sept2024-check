@@ -58,7 +58,7 @@ values
   ('sept2024-p2', '1.1.2', '1', 'STA', 1, 2, 'Write down the range', 'Skryf die omvang neer', 'Question 1 — Statistics', 'Vraag 1 — Statistiek'),
   ('sept2024-p2', '1.1.3', '1', 'STA', 2, 3, 'Calculate the mean', 'Bereken die gemiddelde', 'Question 1 — Statistics', 'Vraag 1 — Statistiek'),
   ('sept2024-p2', '1.1.4', '1', 'STA', 1, 4, 'Standard deviation', 'Standaardafwyking', 'Question 1 — Statistics', 'Vraag 1 — Statistiek'),
-  ('sept2024-p2', '1.1.5', '1', 'STA', 3, 5, 'How many are more than one standard deviation from the mean', 'Hoeveel is meer as een standaardafwyking van die gemiddelde', 'Question 1 — Statistics', 'Vraag 1 — Statistiek'),
+  ('sept2024-p2', '1.1.5', '1', 'STA', 3, 5, 'How many are more than one standard deviation BELOW the mean', 'Hoeveel is meer as een standaardafwyking ONDER die gemiddelde', 'Question 1 — Statistics', 'Vraag 1 — Statistiek'),
   ('sept2024-p2', '1.2', '1', 'STA', 4, 6, 'The lift — mean weight problem', 'Die hysbak — gemiddelde gewig', 'Question 1 — Statistics', 'Vraag 1 — Statistiek'),
   ('sept2024-p2', '2.1', '2', 'STA', 1, 7, 'Identify the outlier', 'Identifiseer die uitskieter', 'Question 2 — Regression and correlation', 'Vraag 2 — Regressie en korrelasie'),
   ('sept2024-p2', '2.2', '2', 'STA', 3, 8, 'Least squares regression line', 'Kleinstekwadrate-regressielyn', 'Question 2 — Regression and correlation', 'Vraag 2 — Regressie en korrelasie'),

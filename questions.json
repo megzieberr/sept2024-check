@@ -94,7 +94,7 @@
           { "n": "1.1.2", "m": 1, "en": "Write down the range", "af": "Skryf die omvang neer" },
           { "n": "1.1.3", "m": 2, "en": "Calculate the mean", "af": "Bereken die gemiddelde" },
           { "n": "1.1.4", "m": 1, "en": "Standard deviation", "af": "Standaardafwyking" },
-          { "n": "1.1.5", "m": 3, "en": "How many are more than one standard deviation from the mean", "af": "Hoeveel is meer as een standaardafwyking van die gemiddelde" },
+          { "n": "1.1.5", "m": 3, "en": "How many are more than one standard deviation BELOW the mean", "af": "Hoeveel is meer as een standaardafwyking ONDER die gemiddelde" },
           { "n": "1.2", "m": 4, "en": "The lift — mean weight problem", "af": "Die hysbak — gemiddelde gewig" }
         ]},
         { "q": "2", "topic": "STA", "head_en": "Question 2 — Regression and correlation", "head_af": "Vraag 2 — Regressie en korrelasie", "marks": 8, "subs": [
