@@ -190,8 +190,8 @@ window.PAPERS = [
           {
             "n": "5.5",
             "m": 2,
-            "en": "Where f-prime(x) · g(x) is less than or equal to 0",
-            "af": "Waar f-aksent(x) · g(x) kleiner of gelyk aan 0 is"
+            "en": "Where f(x) · g-prime(x) is less than 0",
+            "af": "Waar f(x) · g-aksent(x) kleiner as 0 is"
           }
         ]
       },
@@ -223,8 +223,8 @@ window.PAPERS = [
           {
             "n": "6.2.3",
             "m": 1,
-            "en": "Where the inverse of h is greater than or equal to 0",
-            "af": "Waar die inverse van h groter of gelyk aan 0 is"
+            "en": "Where the inverse of h is greater than 0",
+            "af": "Waar die inverse van h groter as 0 is"
           }
         ]
       },

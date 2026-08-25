@@ -38,13 +38,13 @@
           { "n": "5.2", "m": 4, "en": "Coordinates of B and C", "af": "Koördinate van B en C" },
           { "n": "5.3", "m": 4, "en": "Maximum length of PQ", "af": "Maksimum lengte van PQ" },
           { "n": "5.4", "m": 2, "en": "Range of t", "af": "Terrein van t" },
-          { "n": "5.5", "m": 2, "en": "Where f-prime(x) · g(x) is less than or equal to 0", "af": "Waar f-aksent(x) · g(x) kleiner of gelyk aan 0 is" }
+          { "n": "5.5", "m": 2, "en": "Where f(x) · g-prime(x) is less than 0", "af": "Waar f(x) · g-aksent(x) kleiner as 0 is" }
         ]},
         { "q": "6", "topic": "FUN", "head_en": "Question 6 — Logs and inverses", "head_af": "Vraag 6 — Logs en inverses", "marks": 8, "subs": [
           { "n": "6.1", "m": 3, "en": "Find c and d", "af": "Bepaal c en d" },
           { "n": "6.2.1", "m": 2, "en": "Equation of the inverse of g", "af": "Vergelyking van die inverse van g" },
           { "n": "6.2.2", "m": 2, "en": "Equation of the inverse of h", "af": "Vergelyking van die inverse van h" },
-          { "n": "6.2.3", "m": 1, "en": "Where the inverse of h is greater than or equal to 0", "af": "Waar die inverse van h groter of gelyk aan 0 is" }
+          { "n": "6.2.3", "m": 1, "en": "Where the inverse of h is greater than 0", "af": "Waar die inverse van h groter as 0 is" }
         ]},
         { "q": "7", "topic": "FIN", "head_en": "Question 7 — Finance", "head_af": "Vraag 7 — Finansies", "marks": 16, "subs": [
           { "n": "7.1", "m": 3, "en": "Depreciation on reducing balance", "af": "Waardevermindering op verminderde saldo" },
