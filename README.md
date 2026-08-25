@@ -10,15 +10,25 @@ the exam.
 ## How it works
 
 Every sub-question of both papers is listed — 51 in Paper 1, 50 in Paper 2,
-150 marks each. For each one the learner taps **Got it / eh / No idea**.
-Three levels, not a tick-box: a tick only says "struggled", three levels say
-what to reteach versus what to just remind.
+150 marks each. Each one offers **Got it / eh / No idea**. Three levels, not
+a tick-box: a tick only says "struggled", three levels say what to reteach
+versus what to just remind.
 
-There is no Submit button. A tap saves to the phone straight away and then
-syncs to Supabase. If the phone is offline the tap is queued and retried on
-the next tap, on reload, and when the browser comes back online. Answers also
-come back from the server, so a learner can start on a phone and finish on a
-laptop.
+**Everything starts on "Got it".** The learner only changes the ones they
+struggled with, so a paper is a handful of taps rather than 51.
+
+Because of that default, nothing is written until they actually engage. The
+first change to a paper — or pressing **Done with this paper** — commits the
+whole paper in one request, with the untouched questions going in as "got
+it". That keeps the teacher percentages honest: a question flagged by one
+learner should not read as 100% trouble just because the other thirteen never
+wrote a row. The Done button also covers the learner who struggled with
+nothing, and is the signal that they actually did the paper.
+
+After that, changing an answer saves on the tap. If the phone is offline the
+taps merge into one queued payload per paper and go out on the next tap, on
+reload, or when the browser comes back online. Answers also come back from
+the server, so a learner can start on a phone and finish on a laptop.
 
 Learners type their name once. Names are matched case- and space-insensitively,
 so "anna  marie" and "Anna Marie" are the same person.

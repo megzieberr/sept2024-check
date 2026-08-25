@@ -19,8 +19,17 @@ Not "should work" — these were actually run in the browser against live Supaba
 - Both papers parse to **exactly 150 marks** (51 + 50 sub-questions), checked
   against the mark totals printed in the papers *and* the topic splits in
   `DBE-PAPER-BANK.md`.
-- Tapping a level writes to Supabase; 15 taps produced 15 rows with the right
-  levels. Changing an answer **updates** the row, it does not duplicate.
+- Everything pre-selects as "Snap dit" (51 of 51). The first change commits
+  the whole paper in one request — verified 51 rows written with exactly the
+  three changed ones flagged. The "Klaar" button commits a paper nobody
+  changed (50 rows, all "got it").
+- Changing an answer after commit **updates** the row, it does not duplicate.
+- **Fixed a dropped-write race on 2026-08-25:** taps landing while a save was
+  in flight were being discarded, because the payload was snapshotted before
+  the `await` and the job removed after it. Three fast taps saved only one.
+  `flush()` now takes the pending map out of the job before sending, puts
+  unsent entries back on failure, and removes the job by identity rather than
+  position. Retested with three rapid taps — all three land.
 - Wiping localStorage and reloading brought all flags **and** the typed note
   back from the server — so phone-to-laptop works.
 - Offline: taps still register, the badge says so, the queue holds them, and
