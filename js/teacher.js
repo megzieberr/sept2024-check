@@ -123,7 +123,7 @@
     });
     var html = '<div class="card"><h2>Who has filled it in</h2><div class="scroll"><table class="grid">';
     html += "<thead><tr><th>Name</th><th class='num'>P1</th><th class='num'>P2</th>" +
-            "<th class='num'>Got</th><th class='num'>Shaky</th><th class='num'>Stuck</th><th>Last</th></tr></thead><tbody>";
+            "<th class='num'>Got it</th><th class='num'>eh</th><th class='num'>No idea</th><th>Last</th></tr></thead><tbody>";
     Object.keys(byName).sort().forEach(function (nm) {
       var a = byName[nm]["sept2024-p1"], b = byName[nm]["sept2024-p2"];
       var got = (a ? a.n_got : 0) + (b ? b.n_got : 0);

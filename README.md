@@ -10,7 +10,7 @@ the exam.
 ## How it works
 
 Every sub-question of both papers is listed — 51 in Paper 1, 50 in Paper 2,
-150 marks each. For each one the learner taps **Got it / Shaky / No idea**.
+150 marks each. For each one the learner taps **Got it / eh / No idea**.
 Three levels, not a tick-box: a tick only says "struggled", three levels say
 what to reteach versus what to just remind.
 

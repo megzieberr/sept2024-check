@@ -11,7 +11,7 @@
 
   var LEVELS = [
     { l: 0, en: "Got it",  af: "Snap dit", icon: "✓" },
-    { l: 1, en: "Shaky",   af: "Wankel",   icon: "~" },
+    { l: 1, en: "eh",      af: "eh",       icon: "~" },
     { l: 2, en: "No idea", af: "Geen idee", icon: "✗" }
   ];
 
