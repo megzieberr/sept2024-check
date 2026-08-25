@@ -1,0 +1,177 @@
+{
+  "papers": [
+    {
+      "code": "sept2024-p1",
+      "name_en": "Paper 1",
+      "name_af": "Vraestel 1",
+      "total": 150,
+      "questions": [
+        { "q": "1", "topic": "ALG", "head_en": "Question 1 — Algebra", "head_af": "Vraag 1 — Algebra", "marks": 24, "subs": [
+          { "n": "1.1.1", "m": 2, "en": "Solve (2x − 4)(x − 1) = 0", "af": "Los op (2x − 4)(x − 1) = 0" },
+          { "n": "1.1.2", "m": 4, "en": "Solve, correct to TWO decimals", "af": "Los op, korrek tot TWEE desimale" },
+          { "n": "1.1.3", "m": 3, "en": "Quadratic inequality", "af": "Kwadratiese ongelykheid" },
+          { "n": "1.1.4", "m": 4, "en": "Equation with a square root", "af": "Vergelyking met ŉ wortel" },
+          { "n": "1.2", "m": 6, "en": "Simultaneous equations", "af": "Gelyktydige vergelykings" },
+          { "n": "1.3", "m": 5, "en": "Equal roots — find k", "af": "Gelyke wortels — bepaal k" }
+        ]},
+        { "q": "2", "topic": "PAT", "head_en": "Question 2 — Number patterns", "head_af": "Vraag 2 — Getalpatrone", "marks": 17, "subs": [
+          { "n": "2.1.1", "m": 4, "en": "nth term of the quadratic pattern", "af": "n-de term van die kwadratiese patroon" },
+          { "n": "2.1.2", "m": 1, "en": "The 35th term", "af": "Die 35ste term" },
+          { "n": "2.1.3", "m": 4, "en": "Two first differences with product 1 155", "af": "Twee eerste verskille met produk 1 155" },
+          { "n": "2.2", "m": 3, "en": "Arithmetic sequence — find p", "af": "Rekenkundige ry — bepaal p" },
+          { "n": "2.3", "m": 5, "en": "Sum 30, product 510 — find a and d", "af": "Som 30, produk 510 — bepaal a en d" }
+        ]},
+        { "q": "3", "topic": "PAT", "head_en": "Question 3 — Series and sigma", "head_af": "Vraag 3 — Reekse en sigma", "marks": 8, "subs": [
+          { "n": "3.1.1", "m": 1, "en": "The next two terms", "af": "Die volgende twee terme" },
+          { "n": "3.1.2", "m": 2, "en": "Sum to infinity", "af": "Som tot oneindig" },
+          { "n": "3.2", "m": 5, "en": "Sigma notation — find m", "af": "Sigma-notasie — bepaal m" }
+        ]},
+        { "q": "4", "topic": "FUN", "head_en": "Question 4 — Hyperbola", "head_af": "Vraag 4 — Hiperbool", "marks": 11, "subs": [
+          { "n": "4.1", "m": 2, "en": "Equations of the asymptotes", "af": "Vergelykings van die asimptote" },
+          { "n": "4.2", "m": 2, "en": "The x-intercept", "af": "Die x-afsnit" },
+          { "n": "4.3", "m": 2, "en": "The y-intercept", "af": "Die y-afsnit" },
+          { "n": "4.4", "m": 3, "en": "Sketch the graph of f", "af": "Skets die grafiek van f" },
+          { "n": "4.5", "m": 2, "en": "Axis of symmetry with gradient −1", "af": "Simmetrie-as met gradiënt −1" }
+        ]},
+        { "q": "5", "topic": "FUN", "head_en": "Question 5 — Parabola and straight line", "head_af": "Vraag 5 — Parabool en reguitlyn", "marks": 14, "subs": [
+          { "n": "5.1", "m": 2, "en": "Axis of symmetry of f", "af": "Simmetrie-as van f" },
+          { "n": "5.2", "m": 4, "en": "Coordinates of B and C", "af": "Koördinate van B en C" },
+          { "n": "5.3", "m": 4, "en": "Maximum length of PQ", "af": "Maksimum lengte van PQ" },
+          { "n": "5.4", "m": 2, "en": "Range of t", "af": "Terrein van t" },
+          { "n": "5.5", "m": 2, "en": "Where f-prime(x) · g(x) is less than or equal to 0", "af": "Waar f-aksent(x) · g(x) kleiner of gelyk aan 0 is" }
+        ]},
+        { "q": "6", "topic": "FUN", "head_en": "Question 6 — Logs and inverses", "head_af": "Vraag 6 — Logs en inverses", "marks": 8, "subs": [
+          { "n": "6.1", "m": 3, "en": "Find c and d", "af": "Bepaal c en d" },
+          { "n": "6.2.1", "m": 2, "en": "Equation of the inverse of g", "af": "Vergelyking van die inverse van g" },
+          { "n": "6.2.2", "m": 2, "en": "Equation of the inverse of h", "af": "Vergelyking van die inverse van h" },
+          { "n": "6.2.3", "m": 1, "en": "Where the inverse of h is greater than or equal to 0", "af": "Waar die inverse van h groter of gelyk aan 0 is" }
+        ]},
+        { "q": "7", "topic": "FIN", "head_en": "Question 7 — Finance", "head_af": "Vraag 7 — Finansies", "marks": 16, "subs": [
+          { "n": "7.1", "m": 3, "en": "Depreciation on reducing balance", "af": "Waardevermindering op verminderde saldo" },
+          { "n": "7.2", "m": 5, "en": "Savings plan where the payment increases", "af": "Spaarplan waar die paaiement vermeerder" },
+          { "n": "7.3.1", "m": 3, "en": "Balance after the 75th payment", "af": "Balans na die 75ste paaiement" },
+          { "n": "7.3.2", "m": 5, "en": "Missed payments — new instalment", "af": "Gemiste paaiemente — nuwe paaiement" }
+        ]},
+        { "q": "8", "topic": "CAL", "head_en": "Question 8 — Differentiation", "head_af": "Vraag 8 — Differensiasie", "marks": 13, "subs": [
+          { "n": "8.1", "m": 4, "en": "Derivative from FIRST PRINCIPLES", "af": "Afgeleide vanuit EERSTE BEGINSELS" },
+          { "n": "8.2.1", "m": 2, "en": "Find dy/dx", "af": "Bepaal dy/dx" },
+          { "n": "8.2.2", "m": 4, "en": "Differentiate the quotient", "af": "Differensieer die kwosiënt" },
+          { "n": "8.3", "m": 3, "en": "Greatest value of the rate of change", "af": "Grootste waarde van die tempo van verandering" }
+        ]},
+        { "q": "9", "topic": "CAL", "head_en": "Question 9 — Cubic graphs", "head_af": "Vraag 9 — Derdegraadse grafieke", "marks": 17, "subs": [
+          { "n": "9.1.1", "m": 5, "en": "Show that m = 18 and n = −27", "af": "Toon aan dat m = 18 en n = −27" },
+          { "n": "9.1.2", "m": 2, "en": "Difference between f(a) and f-prime(a)", "af": "Verskil tussen f(a) en f-aksent(a)" },
+          { "n": "9.1.3", "m": 5, "en": "Line perpendicular to the tangent at the inflection point", "af": "Lyn loodreg op die raaklyn by die buigpunt" },
+          { "n": "9.1.4", "m": 2, "en": "For which x is the second derivative negative", "af": "Vir watter x is die tweede afgeleide negatief" },
+          { "n": "9.2", "m": 3, "en": "Sketch t from its properties", "af": "Skets t vanuit sy eienskappe" }
+        ]},
+        { "q": "10", "topic": "CAL", "head_en": "Question 10 — Calculus in a word problem", "head_af": "Vraag 10 — Calculus in ŉ woordprobleem", "marks": 7, "subs": [
+          { "n": "10.1", "m": 2, "en": "Scripts marked on day 3", "af": "Skrifte op dag 3 gemerk" },
+          { "n": "10.2", "m": 3, "en": "Day the maximum is reached", "af": "Dag waarop die maksimum bereik word" },
+          { "n": "10.3", "m": 2, "en": "Was the quota of 500 reached?", "af": "Is die kwota van 500 behaal?" }
+        ]},
+        { "q": "11", "topic": "PRB", "head_en": "Question 11 — Probability", "head_af": "Vraag 11 — Waarskynlikheid", "marks": 9, "subs": [
+          { "n": "11.1.1", "m": 2, "en": "Value of x, then P(A)", "af": "Waarde van x, dan P(A)" },
+          { "n": "11.1.2", "m": 2, "en": "P(A or not B)", "af": "P(A of nie B)" },
+          { "n": "11.2.1", "m": 1, "en": "Write down the value of a", "af": "Skryf die waarde van a neer" },
+          { "n": "11.2.2", "m": 1, "en": "Probability the team lost", "af": "Waarskynlikheid dat die span verloor het" },
+          { "n": "11.2.3", "m": 3, "en": "Are the two events independent?", "af": "Is die twee gebeurtenisse onafhanklik?" }
+        ]},
+        { "q": "12", "topic": "PRB", "head_en": "Question 12 — Counting principle", "head_af": "Vraag 12 — Telbeginsel", "marks": 6, "subs": [
+          { "n": "12.1", "m": 2, "en": "How many number-plate codes?", "af": "Hoeveel nommerplaatkodes?" },
+          { "n": "12.2", "m": 4, "en": "Probability of a letter before G", "af": "Waarskynlikheid van ŉ letter voor G" }
+        ]}
+      ]
+    },
+    {
+      "code": "sept2024-p2",
+      "name_en": "Paper 2",
+      "name_af": "Vraestel 2",
+      "total": 150,
+      "questions": [
+        { "q": "1", "topic": "STA", "head_en": "Question 1 — Statistics", "head_af": "Vraag 1 — Statistiek", "marks": 12, "subs": [
+          { "n": "1.1.1", "m": 1, "en": "Write down the mode", "af": "Skryf die modus neer" },
+          { "n": "1.1.2", "m": 1, "en": "Write down the range", "af": "Skryf die omvang neer" },
+          { "n": "1.1.3", "m": 2, "en": "Calculate the mean", "af": "Bereken die gemiddelde" },
+          { "n": "1.1.4", "m": 1, "en": "Standard deviation", "af": "Standaardafwyking" },
+          { "n": "1.1.5", "m": 3, "en": "How many are more than one standard deviation from the mean", "af": "Hoeveel is meer as een standaardafwyking van die gemiddelde" },
+          { "n": "1.2", "m": 4, "en": "The lift — mean weight problem", "af": "Die hysbak — gemiddelde gewig" }
+        ]},
+        { "q": "2", "topic": "STA", "head_en": "Question 2 — Regression and correlation", "head_af": "Vraag 2 — Regressie en korrelasie", "marks": 8, "subs": [
+          { "n": "2.1", "m": 1, "en": "Identify the outlier", "af": "Identifiseer die uitskieter" },
+          { "n": "2.2", "m": 3, "en": "Least squares regression line", "af": "Kleinstekwadrate-regressielyn" },
+          { "n": "2.3", "m": 2, "en": "Use the line to predict a mark", "af": "Gebruik die lyn om ŉ punt te voorspel" },
+          { "n": "2.4", "m": 2, "en": "Comment on the strength of the correlation", "af": "Kommentaar oor die sterkte van die korrelasie" }
+        ]},
+        { "q": "3", "topic": "ANA", "head_en": "Question 3 — Analytical geometry", "head_af": "Vraag 3 — Analitiese meetkunde", "marks": 19, "subs": [
+          { "n": "3.1", "m": 2, "en": "Length of BF in surd form", "af": "Lengte van BF in wortelvorm" },
+          { "n": "3.2", "m": 2, "en": "Gradient of BF", "af": "Gradiënt van BF" },
+          { "n": "3.3", "m": 3, "en": "Size of the angle", "af": "Grootte van die hoek" },
+          { "n": "3.4", "m": 4, "en": "Prove that HF is parallel to AB", "af": "Bewys dat HF ewewydig aan AB is" },
+          { "n": "3.5", "m": 1, "en": "What type of quadrilateral is AEBC?", "af": "Watter tipe vierhoek is AEBC?" },
+          { "n": "3.6", "m": 4, "en": "Length of AC", "af": "Lengte van AC" },
+          { "n": "3.7", "m": 3, "en": "Area of quadrilateral AOFC", "af": "Oppervlakte van vierhoek AOFC" }
+        ]},
+        { "q": "4", "topic": "ANA", "head_en": "Question 4 — Circles in analytical geometry", "head_af": "Vraag 4 — Sirkels in analitiese meetkunde", "marks": 21, "subs": [
+          { "n": "4.1.1", "m": 2, "en": "Coordinates of Q", "af": "Koördinate van Q" },
+          { "n": "4.1.2", "m": 3, "en": "Equation of QR", "af": "Vergelyking van QR" },
+          { "n": "4.1.3", "m": 2, "en": "Coordinates of P", "af": "Koördinate van P" },
+          { "n": "4.1.4", "m": 3, "en": "Coordinates of R, the centre", "af": "Koördinate van R, die middelpunt" },
+          { "n": "4.1.5", "m": 3, "en": "Equation of the circle", "af": "Vergelyking van die sirkel" },
+          { "n": "4.1.6", "m": 3, "en": "Values of k if y = k is a tangent", "af": "Waardes van k as y = k ŉ raaklyn is" },
+          { "n": "4.2", "m": 5, "en": "Maximum length of the radius", "af": "Maksimum lengte van die radius" }
+        ]},
+        { "q": "5", "topic": "TRG", "head_en": "Question 5 — Trigonometry", "head_af": "Vraag 5 — Trigonometrie", "marks": 32, "subs": [
+          { "n": "5.1.1", "m": 2, "en": "Value of q", "af": "Waarde van q" },
+          { "n": "5.1.2", "m": 4, "en": "sin(theta + 45°)", "af": "sin(theta + 45°)" },
+          { "n": "5.1.3", "m": 4, "en": "cos(2·theta − 360°)", "af": "cos(2·theta − 360°)" },
+          { "n": "5.2", "m": 5, "en": "Simplify without a calculator", "af": "Vereenvoudig sonder ŉ sakrekenaar" },
+          { "n": "5.3", "m": 5, "en": "Prove the identity", "af": "Bewys die identiteit" },
+          { "n": "5.4.1", "m": 3, "en": "Show the equation can be rewritten", "af": "Toon aan dat die vergelyking herskryf kan word" },
+          { "n": "5.4.2", "m": 4, "en": "General solution", "af": "Algemene oplossing" },
+          { "n": "5.5", "m": 5, "en": "Show that 2ab over c-squared equals root-2 over 2", "af": "Toon aan dat 2ab oor c-kwadraat gelyk is aan wortel-2 oor 2" }
+        ]},
+        { "q": "6", "topic": "TRG", "head_en": "Question 6 — Trig graphs", "head_af": "Vraag 6 — Trig-grafieke", "marks": 12, "subs": [
+          { "n": "6.1", "m": 1, "en": "Period of f", "af": "Periode van f" },
+          { "n": "6.2", "m": 1, "en": "Minimum value of f", "af": "Minimumwaarde van f" },
+          { "n": "6.3", "m": 2, "en": "Range of f(x) + 1", "af": "Terrein van f(x) + 1" },
+          { "n": "6.4", "m": 2, "en": "Where the graph is increasing", "af": "Waar die grafiek stygend is" },
+          { "n": "6.5", "m": 3, "en": "Equation of g after the shift and reflection", "af": "Vergelyking van g na die skuif en refleksie" },
+          { "n": "6.6", "m": 3, "en": "Draw the graph of g", "af": "Teken die grafiek van g" }
+        ]},
+        { "q": "7", "topic": "TRG", "head_en": "Question 7 — Trig in 2D", "head_af": "Vraag 7 — Trig in 2D", "marks": 6, "subs": [
+          { "n": "7.1", "m": 3, "en": "Area of triangle ABC in terms of x", "af": "Oppervlakte van driehoek ABC in terme van x" },
+          { "n": "7.2", "m": 3, "en": "Value of x for the maximum area", "af": "Waarde van x vir die maksimum oppervlakte" }
+        ]},
+        { "q": "8", "topic": "EUC", "head_en": "Question 8 — Circle geometry", "head_af": "Vraag 8 — Sirkelmeetkunde", "marks": 12, "subs": [
+          { "n": "8.1", "m": 5, "en": "PROOF: the line from the centre that bisects a chord is perpendicular to it", "af": "BEWYS: die lyn vanaf die middelpunt wat ŉ koord halveer is loodreg daarop" },
+          { "n": "8.2.1", "m": 2, "en": "Size of the angle, with reasons", "af": "Grootte van die hoek, met redes" },
+          { "n": "8.2.2", "m": 5, "en": "Length of PO", "af": "Lengte van PO" }
+        ]},
+        { "q": "9", "topic": "EUC", "head_en": "Question 9 — Circle geometry", "head_af": "Vraag 9 — Sirkelmeetkunde", "marks": 15, "subs": [
+          { "n": "9.1", "m": 5, "en": "Size of angle C, with reasons", "af": "Grootte van hoek C, met redes" },
+          { "n": "9.2.1", "m": 4, "en": "TWO other angles equal to y, with reasons", "af": "TWEE ander hoeke gelyk aan y, met redes" },
+          { "n": "9.2.2", "m": 2, "en": "Another angle equal to T-two", "af": "Nog ŉ hoek gelyk aan T-twee" },
+          { "n": "9.2.3", "m": 4, "en": "Prove TR is a diameter", "af": "Bewys dat TR ŉ middellyn is" }
+        ]},
+        { "q": "10", "topic": "EUC", "head_en": "Question 10 — Similarity and proportion", "head_af": "Vraag 10 — Gelykvormigheid en eweredigheid", "marks": 13, "subs": [
+          { "n": "10.1", "m": 4, "en": "Prove triangle ABM is similar to triangle ADC", "af": "Bewys dat driehoek ABM gelykvormig aan driehoek ADC is" },
+          { "n": "10.2", "m": 3, "en": "Prove CD-squared = BM × AC", "af": "Bewys dat CD-kwadraat = BM × AC" },
+          { "n": "10.3", "m": 6, "en": "Length of CN", "af": "Lengte van CN" }
+        ]}
+      ]
+    }
+  ],
+  "topics": {
+    "ALG": { "en": "Algebra", "af": "Algebra" },
+    "PAT": { "en": "Patterns and sequences", "af": "Patrone en rye" },
+    "FUN": { "en": "Functions and graphs", "af": "Funksies en grafieke" },
+    "FIN": { "en": "Finance", "af": "Finansies" },
+    "CAL": { "en": "Calculus", "af": "Calculus" },
+    "PRB": { "en": "Probability and counting", "af": "Waarskynlikheid en telbeginsel" },
+    "STA": { "en": "Statistics", "af": "Statistiek" },
+    "ANA": { "en": "Analytical geometry", "af": "Analitiese meetkunde" },
+    "TRG": { "en": "Trigonometry", "af": "Trigonometrie" },
+    "EUC": { "en": "Euclidean geometry", "af": "Euklidiese meetkunde" }
+  }
+}

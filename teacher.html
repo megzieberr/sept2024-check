@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sept 2024 — what they struggled with</title>
+<meta name="theme-color" content="#fffdf8">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="wrap" style="max-width:900px">
+
+  <section id="gate">
+    <div class="top"><h1>Sept 2024 — the class</h1></div>
+    <div class="card">
+      <form id="gateForm">
+        <label class="fld" for="pwInput">Admin password</label>
+        <input type="password" id="pwInput" autocomplete="current-password" required>
+        <p class="small muted" style="margin:8px 0 14px">
+          Same password as the Blipwork hub admin page.
+        </p>
+        <button class="btn" type="submit" id="loadBtn">Open</button>
+        <p class="err" id="err"></p>
+      </form>
+    </div>
+  </section>
+
+  <main id="main" class="hide">
+    <div class="top">
+      <h1>Sept 2024 — what they struggled with</h1>
+      <button class="chip" id="refresh" type="button">Refresh</button>
+      <p class="sub" id="count"></p>
+    </div>
+
+    <div id="topics"></div>
+
+    <div class="card" style="padding:12px 14px">
+      <label class="fld" for="qsort" style="margin:0 0 6px">Question list order</label>
+      <select id="qsort" style="font:inherit; padding:8px 10px; border:2px solid var(--ink); border-radius:12px; background:var(--papier); color:var(--ink)">
+        <option value="worst">Worst first</option>
+        <option value="paper">Paper order</option>
+      </select>
+      <div class="legend">
+        <span><b style="background:#0ea271"></b>Got it</span>
+        <span><b style="background:#f76707"></b>Shaky</span>
+        <span><b style="background:#e64980"></b>No idea</span>
+      </div>
+    </div>
+
+    <div id="questions"></div>
+    <div id="learners"></div>
+    <div id="notes"></div>
+  </main>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/questions.js"></script>
+<script src="js/teacher.js"></script>
+</body>
+</html>
