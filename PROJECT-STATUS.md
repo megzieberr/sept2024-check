@@ -1,66 +1,107 @@
-# PROJECT-STATUS — Sept 2024 check-in
+# Project status — updated 2026-08-25
 
-**Last session: 2026-08-25**
+## Where we are
 
-## Where it is
+The site is **live and finished**: https://megzieberr.github.io/sept2024-check/
+(teacher view at `/teacher.html`, password = the Blipwork hub admin password).
 
-The site is **built and live**. Read `README.md` first — it explains the
-design decisions.
+Grade 12s open it after writing the September 2024 DBE P1 and P2 over the
+weekend of 29–30 August, and flag which questions they struggled with. Every
+question starts on **Snap dit**; they only change the ones that hurt. Megan's
+view leads with a by-topic table, worst first.
 
-- Learners: https://megzieberr.github.io/sept2024-check/
-- Megan: https://megzieberr.github.io/sept2024-check/teacher.html
-- Backend: `homework-hub` Supabase project (`pjpwhalcifywjrwtjknd`),
-  tables `exam_questions` / `exam_flags` / `exam_notes`.
+Backend is the existing `homework-hub` Supabase project
+(`pjpwhalcifywjrwtjknd`) — tables `exam_questions` / `exam_flags` /
+`exam_notes`, all reached only through the `exam_*` functions. Deliberately
+not a new project, to keep the daily keepalive list at 10.
 
-## What was verified on 2026-08-25
+Both colour memos are also done — see **Files generated** below.
 
-Not "should work" — these were actually run in the browser against live Supabase:
+## Decisions
 
-- Both papers parse to **exactly 150 marks** (51 + 50 sub-questions), checked
-  against the mark totals printed in the papers *and* the topic splits in
-  `DBE-PAPER-BANK.md`.
-- Everything pre-selects as "Snap dit" (51 of 51). The first change commits
-  the whole paper in one request — verified 51 rows written with exactly the
-  three changed ones flagged. The "Klaar" button commits a paper nobody
-  changed (50 rows, all "got it").
-- Changing an answer after commit **updates** the row, it does not duplicate.
-- **Fixed a dropped-write race on 2026-08-25:** taps landing while a save was
-  in flight were being discarded, because the payload was snapshotted before
-  the `await` and the job removed after it. Three fast taps saved only one.
-  `flush()` now takes the pending map out of the job before sending, puts
-  unsent entries back on failure, and removes the job by identity rather than
-  position. Retested with three rapid taps — all three land.
-- Wiping localStorage and reloading brought all flags **and** the typed note
-  back from the server — so phone-to-laptop works.
-- Offline: taps still register, the badge says so, the queue holds them, and
-  they sync when the connection returns. Verified end to end.
-- Security: the anon key gets **401** on all three tables. All four
-  `exam_teacher_*` functions refuse a wrong password.
-- Layout: no horizontal overflow at 375px; tap targets 44×103px.
-- Teacher page: topic table sorts worst-first and the percentages are right
-  (Finance 0 got / 1 shaky / 3 stuck → 88%).
+- **2026-08-25** — Three levels, not a tick-box. A tick only says "struggled";
+  three levels say what to reteach versus what to just remind.
+- **2026-08-25** — The middle level is the word **"eh"** in both languages.
+  "Wankel" was rejected — nobody says it.
+- **2026-08-25** — Teacher view groups **by topic, not by question number**.
+  The Monday decision is "9 of 14 are red on Euclidean geometry".
+- **2026-08-25** — Everything **pre-selects as "Snap dit"**; 101 taps was too
+  tedious. Consequence: nothing writes until they engage, so the first change
+  to a paper (or the "Klaar" button) commits the WHOLE paper at once via
+  `exam_flags_set_many`, untouched ones as "got it". Do not simplify that
+  away — without it, one learner flagging a question reads as 100% trouble
+  while the other thirteen have no rows at all.
+- **2026-08-25** — No memo gate. She hands out paper + memo; the site is
+  purely for flagging afterwards.
+- **2026-08-25** — Memos are **separate documents per language**, not
+  bilingual side-by-side.
+- **2026-08-25** — Learner names live in Supabase only, never in the repo.
+  RLS is on with no policies so the public key gets 401 on all three tables.
+  The Supabase advisories that flag this are the design, not a bug.
 
-Test data was deleted afterwards — flags and notes are both at 0 rows.
+## Pending on Megan
 
-## Still to do
+- 🌐 **2 min [whenever]:** open the teacher page and sign in with your admin
+  password once, so you know it opens.
+- 💻 **[whenever]:** print the four memo PDFs.
+- 💻 **1 min [whenever]:** check the Q12 English wording in the P1 memo — the
+  Afrikaans sentence about the ZN suffix does not parse, so that stem is a
+  reconstruction.
 
-- [ ] **P1 memo, English + Afrikaans** (separate documents, her colour house
-      style, tick-per-mark). This is the big remaining piece. The P1 errata
-      correction for 7.2 must go in: correct answer **R340 825,14**.
-- [ ] **P2 memo**, same again, early the following week.
-- [ ] Megan to send the link to the class.
+## Next up
 
-## Things not to get wrong next time
+Nothing scheduled. The site needs no further work before the weekend.
 
-- `questions.json` is the single source. After editing it, run
-  `python build.py` (it re-checks the 150 totals) **and** re-run
-  `supabase/seed-questions.sql`. Editing `js/questions.js` by hand will be
-  silently overwritten.
-- The teacher password is the Blipwork hub admin password — there is no
-  separate one, and the migration deliberately reuses `_mhq_admin_ok`.
-- The Supabase security advisories flag `rls_enabled_no_policy` and
-  `anon_security_definer_function_executable` for these objects. **That is the
-  design, not a bug** — it is the same pattern as the 44 functions already in
-  the hub. Do not "fix" it by adding anon policies.
+Two open judgement calls, both hers and neither blocking:
+
+- The amber ★ Level 4 lists are the memos' own reading — 12 sub-parts /
+  46 marks in P1, 10 sub-parts / 42 marks in P2. DBE published no grid for
+  this paper and both covers say so. To change one, swap `\vk` ↔ `\vkster`
+  on that part.
+- P2's 6.4 is given as `120° < x < 180°` to match the official guideline,
+  with a note that `120° < x ≤ 180°` is the same stretch and also accepted.
+
+After the weekend, the useful follow-up is reading the teacher page and
+deciding what to reteach in the last week.
+
+## Files generated this session
+
+Site (this repo, all committed and pushed, `a66c7fc`):
+`C:\Users\megzi\Desktop\Claude Code Projects\sept2024-check\`
+
+Memos — **not** a git repo, they live beside the papers:
+
+- `C:\Users\megzi\Desktop\Eksamen Vraestelle\Gr12 DBE Vraestelle\Gr12 Sept Vraestelle\Sept 2024\Kleurmemo V1\`
+  — `Sept2024-V1-Kleurmemo-ENG.pdf` and `-AFR.pdf`, 32 pages each, plus `.tex`,
+  `verify_ticks.py`, `verify_pair.py`, `fig\`.
+- `C:\Users\megzi\Desktop\Eksamen Vraestelle\Gr12 DBE Vraestelle\Gr12 Sept Vraestelle\Sept 2024\Kleurmemo V2\`
+  — `Sept2024-V2-Kleurmemo-ENG.pdf` and `-AFR.pdf`, 30 pages each, same
+  supporting files.
+
+## Errors found in the official DBE material (all verified independently)
+
+Worth telling the learners, because they self-mark against downloaded memos.
+
+| Where | What |
+|---|---|
+| P1 memo **7.2** | Gives R260 171,34 — forgets to carry the first block forward 60 months. Correct: **R340 825,14** (the province issued an errata). |
+| P1 memo **8.1** | Expands `(x+h)²` as `x² + 2xh − h²` and carries the minus down. Answer `2x` survives only because `h → 0`. Not previously flagged anywhere. |
+| P2 memo **5.4.2** | Second solution family given as `x = 120° − k·360°`; it is `x = 150° + k·360°`. 120° is not a root. Solutions in [0°;360°): **10°, 130°, 150°, 250°**. This one costs marks on self-marking. |
+| P2 memo 5.4.1 | A dropped `2`; right answer, wrong printed line. |
+| P2 memo 6.5 | A dropped minus mid-line; right answer. |
+| P1 paper **9.2** | The two bullets contradict each other — `t(−3)=t(3)=t(0)=0` forces turning points at ±√3, not ±1,5. Does not affect marking. |
+| P2 paper **Q3** | **"O" is not the origin.** AB has inclination 45°, so its x-intercept is (−1;0). The given area of ΔOBF = 12 only works there; assuming the origin gives 10 and 3.7 collapses. |
+
+## Traps for the next session
+
+- `questions.json` is the single source of truth. After editing it run
+  `python build.py` (it re-checks both papers total 150) **and** re-run
+  `supabase/seed-questions.sql`. `js/questions.js` is GENERATED.
+- ⚠️ **The PDF text layer silently drops primes, inequality signs and whole
+  qualifying words.** It bit this project three times — 5.5, 6.2.3 and 1.1.5
+  were all wrong until the lines were rendered at 400 dpi and looked at.
+  Never trust `get_text()` for an operator or a qualifier.
 - Screenshots in the Browser pane time out on this laptop. Verify layout by
-  reading the DOM instead.
+  reading the DOM.
+- The teacher password is the Blipwork hub admin password; the migration
+  deliberately reuses `_mhq_admin_ok`. There is no separate one.
