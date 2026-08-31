@@ -41,12 +41,7 @@ Both colour memos are also done — see **Files generated** below.
 
 ## Pending on Megan
 
-- 🌐 **2 min [whenever]:** open the teacher page and sign in with your admin
-  password once, so you know it opens.
-- 💻 **[whenever]:** print the four memo PDFs.
-- 💻 **1 min [whenever]:** check the Q12 English wording in the P1 memo — the
-  Afrikaans sentence about the ZN suffix does not parse, so that stem is a
-  reconstruction.
+- Nothing. (2026-08-31 sweep, her word: all three KILLED — the admin sign-in check, the four memo prints, and the Q12 English wording check. ⚠ The Q12 English stem stays a reconstruction from the Afrikaans; nobody is going to re-check it.)
 
 ## Next up
 
