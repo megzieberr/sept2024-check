@@ -1,5 +1,15 @@
 # Project status — updated 2026-08-25
 
+> **RETIRED 2026-10-01, kept as a skeleton.** Retired together with Sept 2024 Vlaggies (this site only redirected there).
+
+- Website taken down (GitHub Pages turned off) and the GitHub repo archived: read-only,
+  code kept. To undo: repo Settings, Unarchive, then turn Pages back on.
+- Local folder moved to `Claude Code Projects\_archive\`.
+- Its tables `exam_questions` / `exam_flags` / `exam_notes` sit in the LIVE homework-hub (Blipwork)
+  Supabase project. Left alone on purpose: tiny, harmless, and that project stays awake.
+- Keep this repo: `questions.json` is the verified source Sept 2024 Vlaggies generates from.
+
+
 ## Where we are
 
 The site is **live and finished**: https://megzieberr.github.io/sept2024-check/
